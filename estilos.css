@@ -32,12 +32,25 @@
 
 .mov {
     transform: scale(0, 0) translateX(0);
-    -webkit-animation-name: slide;
-            animation-name: slide;
+    -webkit-animation-name: size;
+            animation-name: size;
     -webkit-animation-timing-function: ease;
             animation-timing-function: ease;
     -webkit-animation-duration: 4s;
             animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    
+}
+
+.mov2 {
+    transform: scale(0, 0) translateX(0);
+    -webkit-animation-name: size;
+            animation-name: size;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
     
@@ -67,12 +80,28 @@
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 8px;
-    animation-name: slide;
+    animation-name: size;
     animation-timing-function: ease;
     animation-duration: 4s;
     animation-iteration-count: infinite;
    
 
+}
+
+.buttonPrj {
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: flex ;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    animation-name: size;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
   
 .button1 {
@@ -157,11 +186,38 @@
     color: white;
 }
 
+.button7 {
+    background-color: rgb(213, 126, 245); 
+    color: black; 
+    border: 3px solid #8151f0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: auto;
+    margin-top: auto;
+    width: 130px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+  
+.button7:hover {
+    background-color: #8151f0;
+    color: white;
+}
+
 .div1{
     display: flex;
     flex-direction:row;
     justify-content: center;
     
+}
+
+.div2{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
 }
 
 .table1{
@@ -285,4 +341,10 @@ a:active {
     justify-content: center;
 }
 
+.divCont{
+    
+    background-color: rgb(188, 118, 253);
+    color: azure;
+    
+}
 
